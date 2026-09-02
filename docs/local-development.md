@@ -17,7 +17,7 @@
 Na raiz do projeto:
 
 ```powershell
-firebase emulators:start
+firebase emulators:start --project demo-vl-docs
 ```
 
 Painéis locais:
@@ -32,5 +32,7 @@ Em outro terminal:
 ```powershell
 pnpm dev:web
 ```
+
+O projeto demo é intencional: ele mantém o ambiente local isolado e evita chamadas para serviços Firebase reais. Quando os projetos DEV/HML/PROD forem criados, os comandos de deploy usarão os respectivos IDs, nunca o projeto demo.
 
 O app estará disponível em http://127.0.0.1:9001 e usa o Auth Emulator quando `VITE_USE_FIREBASE_EMULATORS=true`. A conexão com MongoDB continua protegida por configuração de backend; o frontend nunca recebe `MONGODB_URI` ou credenciais S3.

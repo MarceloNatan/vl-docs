@@ -8,7 +8,8 @@
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",
     "dev:web": "pnpm --filter @vl-docs/web dev",
-    "dev:api": "pnpm --filter @vl-docs/functions dev"
+    "dev:api": "pnpm --filter @vl-docs/functions dev",
+    "dev:firebase": "firebase emulators:start --project demo-vl-docs"
   },
   "engines": { "node": ">=20" }
 }
