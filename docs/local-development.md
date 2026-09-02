@@ -33,4 +33,4 @@ Em outro terminal:
 pnpm dev:web
 ```
 
-O app usa o Auth Emulator quando `VITE_USE_FIREBASE_EMULATORS=true`. A conexão com MongoDB continua protegida por configuração de backend; o frontend nunca recebe `MONGODB_URI` ou credenciais S3.
+O app estará disponível em http://127.0.0.1:9001 e usa o Auth Emulator quando `VITE_USE_FIREBASE_EMULATORS=true`. A conexão com MongoDB continua protegida por configuração de backend; o frontend nunca recebe `MONGODB_URI` ou credenciais S3.
