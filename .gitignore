@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.quasar/
+.firebase/
+coverage/
+.env
+.env.*
+!.env.example
+firebase-debug.log
+*.local

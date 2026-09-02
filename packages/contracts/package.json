@@ -1,0 +1,9 @@
+{
+  "name": "@vl-docs/contracts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc --noEmit", "build": "tsc" },
+  "devDependencies": { "typescript": "^5.7.2" }
+}
