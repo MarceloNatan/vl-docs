@@ -1,5 +1,5 @@
 import { defineConfig } from '#q-app/wrappers';
 export default defineConfig(() => ({
-  boot: [], css: ['app.scss'], extras: ['material-icons'], build: { target: { browser: ['es2022', 'chrome120', 'firefox120', 'safari16'] } },
+  boot: ['firebase'], css: ['app.scss'], extras: ['material-icons'], build: { target: { browser: ['es2022', 'chrome120', 'firefox120', 'safari16'] } },
   devServer: { open: false }, framework: { plugins: [] }, animations: [],
 }));
